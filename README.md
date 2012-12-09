@@ -17,4 +17,11 @@ V souboru `vyhledavani-podle-gps.php` je ukázka, jak zjistit z GPS kraj, okres 
 PSČ
 ---
 
-V databázi **nejsou uvedena PSČ**. Bohužel jsme nezjistil, jak 100&nbsp;% zjistit PSČ, protože některé obce jej nemají uvedeno a patří např. pod jinou obec (poštu), takže kdyby někdo věděl jak na to a doplnil PSČ, tak by to bylo super :-)
+Protože seznam obcí z Českého statistíckého úřadu nebsahuje všechny obce a ani PSČ, doplnil jsem databázi o další tabulku, které obsahuje všechny PSČ z databáze České pošty. Přidal jsem pouze propojení na okres a kraj.
+
+### Zdroj
+---------
+
+> Seznam PSČ částí obcí a obcí bez částí (XLS)
+> Česká pošta
+> http://www.ceskaposta.cz/cz/nastroje/dokumenty-ke-stazeni-id355/#z
